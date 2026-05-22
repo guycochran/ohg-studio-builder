@@ -1,0 +1,788 @@
+{
+  "mx-brio": {
+    "name": "Logitech MX Brio 4K Webcam",
+    "cat": "camera",
+    "price": 200,
+    "tiers": [
+      500
+    ],
+    "why": "4K webcam with a real sensor upgrade over the old Brio. Sharp, well-priced, plug and play."
+  },
+  "facecam-4k": {
+    "name": "Elgato Facecam 4K",
+    "cat": "camera",
+    "price": 200,
+    "tiers": [
+      500
+    ],
+    "why": "4K60 over USB-C. Locks exposure (no creep), pairs cleanly with Stream Deck."
+  },
+  "facecam-pro": {
+    "name": "Elgato Facecam Pro",
+    "cat": "camera",
+    "price": 300,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Sony STARVIS sensor, low-light upgrade over Brio/Facecam."
+  },
+  "obsbot-tiny2": {
+    "name": "OBSBOT Tiny 2 (auto-track)",
+    "cat": "camera",
+    "price": 329,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "AI auto-track keeps you centered when you move. Great for solo shooters."
+  },
+  "zve10-ii": {
+    "name": "Sony ZV-E10 II (body)",
+    "cat": "camera",
+    "price": 999,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "APS-C mirrorless with USB streaming, RTMP/SRT support. The default $5k camera."
+  },
+  "zve10-ii-kit": {
+    "name": "Sony ZV-E10 II (kit 16-50 II)",
+    "cat": "camera",
+    "price": 1099,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Same body, includes the new power-zoom kit lens. Good starting point."
+  },
+  "canon-r50v": {
+    "name": "Canon R50 V",
+    "cat": "camera",
+    "price": 850,
+    "tiers": [
+      5000
+    ],
+    "why": "Canon's vlog-first R50 variant. Clean USB streaming."
+  },
+  "fuji-xs20": {
+    "name": "Fujifilm X-S20",
+    "cat": "camera",
+    "price": 1299,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Best film simulations in the category. Strong stills + video crossover."
+  },
+  "bmd-studio": {
+    "name": "Blackmagic Studio Camera 4K Plus G2",
+    "cat": "camera",
+    "price": 2099,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Designed for the ATEM ecosystem. Tally, talkback, PoE on a single cable."
+  },
+  "sony-fx30": {
+    "name": "Sony FX30 (Cinema Line APS-C)",
+    "cat": "camera",
+    "price": 1799,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Cinema-line ergonomics, dual base ISO. The serious \"recording\" pick."
+  },
+  "birddog-p200": {
+    "name": "BirdDog P200 PTZ",
+    "cat": "camera",
+    "price": 2799,
+    "tiers": [
+      20000
+    ],
+    "why": "1080p60 full NDI PTZ. SDI+HDMI+NDI simultaneous out. Core of the NDI route."
+  },
+  "birddog-p400": {
+    "name": "BirdDog P400 4K PTZ",
+    "cat": "camera",
+    "price": 4499,
+    "tiers": [
+      20000
+    ],
+    "why": "First 4K NDI camera with 4:2:2 hardware decode. PoE+. The premium NDI route."
+  },
+  "sigma-16-14": {
+    "name": "Sigma 16mm f/1.4 (E-mount)",
+    "cat": "camera",
+    "price": 379,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Fast wide prime — flattering for talking head, great in low light."
+  },
+  "sigma-30-14": {
+    "name": "Sigma 30mm f/1.4 (E-mount)",
+    "cat": "camera",
+    "price": 339,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Closer to \"natural\" focal length than 16mm, still fast."
+  },
+  "tamron-17-70": {
+    "name": "Tamron 17-70mm f/2.8 (E-mount)",
+    "cat": "camera",
+    "price": 799,
+    "tiers": [
+      10000
+    ],
+    "why": "Single zoom that covers wide-to-tight. Lower lens-swap overhead during live work."
+  },
+  "samson-q2u": {
+    "name": "Samson Q2U",
+    "cat": "audio",
+    "price": 70,
+    "tiers": [
+      500
+    ],
+    "why": "Cheapest legit hybrid USB/XLR dynamic. Outperforms any condenser at this price."
+  },
+  "podmic-usb": {
+    "name": "RODE PodMic USB",
+    "cat": "audio",
+    "price": 199,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Tuned for spoken word, internal shock mount, USB/XLR hybrid. The 2026 default starter mic."
+  },
+  "mv7-plus": {
+    "name": "Shure MV7+",
+    "cat": "audio",
+    "price": 249,
+    "tiers": [
+      500,
+      5000,
+      10000
+    ],
+    "why": "Hybrid USB/XLR. Auto-level mode, app DSP, dynamic capsule rejects room noise. Upgrade path without replacing the mic."
+  },
+  "sm7b": {
+    "name": "Shure SM7B",
+    "cat": "audio",
+    "price": 399,
+    "tiers": [
+      5000,
+      10000,
+      20000
+    ],
+    "why": "Broadcast standard XLR. Requires interface + clean preamp. A forever mic."
+  },
+  "sm7db": {
+    "name": "Shure SM7dB",
+    "cat": "audio",
+    "price": 499,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "SM7B with built-in preamp. Removes the Cloudlifter requirement."
+  },
+  "countryman-h6": {
+    "name": "Countryman H6 headset",
+    "cat": "audio",
+    "price": 500,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Hands-free panelist mic. Tiny, broadcast-quality, hands-free."
+  },
+  "dji-mic-2": {
+    "name": "DJI Mic 2 (kit)",
+    "cat": "audio",
+    "price": 349,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Wireless lav. 32-bit float internal recording = backup audio insurance."
+  },
+  "sennheiser-ewd": {
+    "name": "Sennheiser EW-D wireless",
+    "cat": "audio",
+    "price": 699,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Pro digital wireless. Set-and-forget reliability."
+  },
+  "rode-wireless": {
+    "name": "RODE Wireless Pro",
+    "cat": "audio",
+    "price": 399,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "On-board 32-bit float + timecode. Trade for DJI Mic 2 based on platform preference."
+  },
+  "scarlett-2i2": {
+    "name": "Focusrite Scarlett 2i2 (4th gen)",
+    "cat": "audio",
+    "price": 199,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "The reference cheap interface. Two XLR inputs, AIR mode, USB-C."
+  },
+  "flow8": {
+    "name": "Behringer Flow 8",
+    "cat": "audio",
+    "price": 279,
+    "tiers": [
+      5000
+    ],
+    "why": "Eight-channel digital mixer with Bluetooth app control. Punches above its weight."
+  },
+  "rcv-duo": {
+    "name": "RØDECaster Duo",
+    "cat": "audio",
+    "price": 499,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Mini RØDECaster with same DSP. Right size for a 2-host podcast."
+  },
+  "rcv-pro-ii": {
+    "name": "RØDECaster Pro II",
+    "cat": "audio",
+    "price": 699,
+    "tiers": [
+      10000
+    ],
+    "why": "4-host capable, SMART pads, sound-effects integration."
+  },
+  "x32-rack": {
+    "name": "Behringer X32 Rack",
+    "cat": "audio",
+    "price": 1299,
+    "tiers": [
+      20000
+    ],
+    "why": "40-channel digital mixer in 3U. Routes to Dante, USB, network. Broadcast-grade."
+  },
+  "mdr-7506": {
+    "name": "Sony MDR-7506 headphones",
+    "cat": "audio",
+    "price": 100,
+    "tiers": [
+      500,
+      5000,
+      10000,
+      20000
+    ],
+    "why": "Industry default closed-back. Boring, accurate, indestructible."
+  },
+  "iem-sidekick": {
+    "name": "Behringer P1 IEM (\"Sidekick\")",
+    "cat": "audio",
+    "price": 100,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "In-ear monitor for hosts who hate cans on camera."
+  },
+  "halo-60x": {
+    "name": "Aputure Amaran Halo 60x",
+    "cat": "lighting",
+    "price": 119,
+    "tiers": [
+      500
+    ],
+    "why": "New 2026 Halo series — bicolor COB, Bowens mount, app control. Best $/W in the line."
+  },
+  "halo-100x": {
+    "name": "Aputure Amaran Halo 100x",
+    "cat": "lighting",
+    "price": 219,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Bigger Halo COB. Add a softbox and you have a real key light."
+  },
+  "amaran-200x": {
+    "name": "Aputure Amaran 200x S",
+    "cat": "lighting",
+    "price": 449,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Real cinema-style bicolor COB. Pair with parabolic softbox for portrait-grade key."
+  },
+  "aputure-300d": {
+    "name": "Aputure LS 300d III",
+    "cat": "lighting",
+    "price": 1199,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Daylight 300W cinema light. The \"feels expensive on camera\" tier."
+  },
+  "aputure-mc": {
+    "name": "Aputure MC RGB pocket light",
+    "cat": "lighting",
+    "price": 90,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Magnet-mountable RGB accent. Use to break up the backdrop."
+  },
+  "elgato-key": {
+    "name": "Elgato Key Light Air",
+    "cat": "lighting",
+    "price": 140,
+    "tiers": [
+      500
+    ],
+    "why": "App-controlled flat panel. Lower output than COB but simpler form factor."
+  },
+  "light-stands": {
+    "name": "Light stands (pair, 7ft)",
+    "cat": "lighting",
+    "price": 80,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "You will buy these. Might as well budget for them."
+  },
+  "boom-stands": {
+    "name": "Manfrotto boom stands (pair)",
+    "cat": "lighting",
+    "price": 320,
+    "tiers": [
+      10000
+    ],
+    "why": "Real boom arms keep lights out of frame from above. Worth the upgrade."
+  },
+  "autopole": {
+    "name": "Manfrotto Autopole kit (2x)",
+    "cat": "lighting",
+    "price": 280,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Floor-to-ceiling pole rig. Cleanest way to mount lights without taking floor space."
+  },
+  "softbox": {
+    "name": "Bowens softbox (octa, 36in)",
+    "cat": "lighting",
+    "price": 90,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Soft, controlled key. Cheap upgrade with disproportionate visual payoff."
+  },
+  "softbox-pro": {
+    "name": "Parabolic softbox 5ft (Bowens)",
+    "cat": "lighting",
+    "price": 280,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Big light source = soft, flattering. The \"looks like a pro lit it\" upgrade."
+  },
+  "obs-free": {
+    "name": "OBS Studio (free)",
+    "cat": "control",
+    "price": 0,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Free, open source. The default starting point. Capture cards plug in here."
+  },
+  "ecamm": {
+    "name": "Ecamm Live (Mac)",
+    "cat": "control",
+    "price": 199,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Mac-only multi-cam streaming. Easier than OBS for non-engineers."
+  },
+  "vmix-basic": {
+    "name": "vMix Basic HD (annual)",
+    "cat": "control",
+    "price": 60,
+    "tiers": [
+      5000
+    ],
+    "why": "Entry-level vMix. Limit on inputs but full feature set otherwise."
+  },
+  "vmix-hd": {
+    "name": "vMix HD (perpetual)",
+    "cat": "control",
+    "price": 350,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Owns it forever. Right call if you stream weekly."
+  },
+  "vmix-4k": {
+    "name": "vMix 4K (perpetual)",
+    "cat": "control",
+    "price": 700,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "4K capable, more inputs. The NDI-route default."
+  },
+  "vmix-pro": {
+    "name": "vMix Pro",
+    "cat": "control",
+    "price": 1200,
+    "tiers": [
+      20000
+    ],
+    "why": "8 NDI inputs, instant replay, scoreboard, full broadcast feature set."
+  },
+  "atem-mini": {
+    "name": "ATEM Mini Pro",
+    "cat": "control",
+    "price": 495,
+    "tiers": [
+      5000
+    ],
+    "why": "Hardware switcher with streaming engine. No PC required for basic streams."
+  },
+  "rcv-core": {
+    "name": "RØDECaster Video Core",
+    "cat": "control",
+    "price": 599,
+    "tiers": [
+      5000
+    ],
+    "why": "All-in-one switcher + audio mixer (software-based scenes). Simplest live $5k path."
+  },
+  "rcv-full": {
+    "name": "RØDECaster Video (full)",
+    "cat": "control",
+    "price": 1199,
+    "tiers": [
+      10000
+    ],
+    "why": "6 video inputs (4 HDMI + 2 USB), 9 audio channels, scenes, ISO recording, auto-switch by speaker."
+  },
+  "atem-extreme": {
+    "name": "ATEM Mini Extreme ISO G2",
+    "cat": "control",
+    "price": 1995,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "New G2. ISO recording per input, hardware buttons. The right pick for $10–20k."
+  },
+  "atem-tv-studio": {
+    "name": "ATEM Television Studio HD8 ISO",
+    "cat": "control",
+    "price": 2995,
+    "tiers": [
+      20000
+    ],
+    "why": "Real broadcast switcher form factor. SDI throughout. The Blackmagic-route hub."
+  },
+  "m4250": {
+    "name": "NETGEAR M4250 AV-over-IP switch",
+    "cat": "control",
+    "price": 500,
+    "tiers": [
+      20000
+    ],
+    "why": "NDI/Dante/AVB-friendly managed switch. Required for the NDI route."
+  },
+  "mac-mini-m4": {
+    "name": "Mac mini M4 (16GB)",
+    "cat": "computer",
+    "price": 599,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "M4 is overkill for most encoding. 16GB base is fine for OBS/Ecamm."
+  },
+  "mac-mini-pro": {
+    "name": "Mac mini M4 Pro (24GB)",
+    "cat": "computer",
+    "price": 1399,
+    "tiers": [
+      10000
+    ],
+    "why": "Headroom for multi-cam vMix or heavy ISO recording."
+  },
+  "beelink-pc": {
+    "name": "Beelink mini PC (Ryzen, 16GB)",
+    "cat": "computer",
+    "price": 449,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "Cheaper than a Mac mini. Good if you already live in Windows."
+  },
+  "pc-rtx": {
+    "name": "PC w/ RTX 4070 (32GB)",
+    "cat": "computer",
+    "price": 1799,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Required for vMix at 4K with NDI workloads. NVENC offloads encoding."
+  },
+  "pc-rtx-pro": {
+    "name": "PC w/ RTX 4080 (64GB)",
+    "cat": "computer",
+    "price": 2999,
+    "tiers": [
+      20000
+    ],
+    "why": "For multi-NDI/4K and instant replay. The \"I want to ignore the CPU forever\" build."
+  },
+  "dell-43-4k": {
+    "name": "Dell 43\" 4K monitor",
+    "cat": "computer",
+    "price": 599,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Quad-up: program, preview, audio meters, source feeds — all visible at once."
+  },
+  "usb-capture": {
+    "name": "Elgato HD60 X capture card",
+    "cat": "recording",
+    "price": 179,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Gets mirrorless HDMI clean into OBS as a webcam."
+  },
+  "cam-link-4k": {
+    "name": "Elgato Cam Link 4K",
+    "cat": "recording",
+    "price": 130,
+    "tiers": [
+      5000
+    ],
+    "why": "Cheaper than HD60 X if you don't need passthrough."
+  },
+  "hyperdeck-shut": {
+    "name": "Blackmagic HyperDeck Shuttle 4K Pro",
+    "cat": "recording",
+    "price": 695,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Dedicated recorder, removes the \"what if OBS crashes\" risk."
+  },
+  "hyperdeck-std": {
+    "name": "Blackmagic HyperDeck Studio HD Plus",
+    "cat": "recording",
+    "price": 575,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Rack-mount recorder. Pairs naturally with the ATEM workflow."
+  },
+  "ssd-1tb": {
+    "name": "Samsung T7 1TB SSD",
+    "cat": "recording",
+    "price": 100,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "External SSD for project files. T7 is the boring-reliable choice."
+  },
+  "ssd-2tb": {
+    "name": "Samsung T9 2TB SSD",
+    "cat": "recording",
+    "price": 220,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Faster than T7, double the capacity. For ISO recording workflows."
+  },
+  "sd-card": {
+    "name": "128GB V60 SD card",
+    "cat": "recording",
+    "price": 40,
+    "tiers": [
+      5000
+    ],
+    "why": "Don't cheap out on cards. V60 minimum for the ZV-E10 II."
+  },
+  "boom-arm": {
+    "name": "RODE PSA1+ boom arm",
+    "cat": "cables",
+    "price": 140,
+    "tiers": [
+      500,
+      5000,
+      10000
+    ],
+    "why": "No clunk, broad reach, no creep. The boom arm everyone ends up buying."
+  },
+  "boom-arm-bud": {
+    "name": "InnoGear boom arm",
+    "cat": "cables",
+    "price": 40,
+    "tiers": [
+      500
+    ],
+    "why": "Honest \"starter\" arm. You'll upgrade later."
+  },
+  "cables-basic": {
+    "name": "Cables kit (USB, HDMI, XLR)",
+    "cat": "cables",
+    "price": 60,
+    "tiers": [
+      500
+    ],
+    "why": "Don't forget the cables. Every build hits this realization at checkout."
+  },
+  "cables-pro": {
+    "name": "Cables kit (XLR x4, HDMI x4, USB-C x2)",
+    "cat": "cables",
+    "price": 200,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Multi-cam means multi-cables. Budget for it up front."
+  },
+  "cables-bcast": {
+    "name": "Cables kit (XLR, HDMI, Ethernet, power)",
+    "cat": "cables",
+    "price": 400,
+    "tiers": [
+      20000
+    ],
+    "why": "Including Cat6A runs. Cleaner install, fewer surprises."
+  },
+  "ups-1500": {
+    "name": "CyberPower 1500VA UPS",
+    "cat": "cables",
+    "price": 200,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "The \"boring\" item that saves your live show when the power flickers."
+  },
+  "ups-3000": {
+    "name": "APC Smart-UPS 3000VA",
+    "cat": "cables",
+    "price": 1200,
+    "tiers": [
+      20000
+    ],
+    "why": "Pro-level UPS with network monitoring. Backs up the whole rack."
+  },
+  "tripod": {
+    "name": "Manfrotto compact tripod",
+    "cat": "cables",
+    "price": 200,
+    "tiers": [
+      5000
+    ],
+    "why": "Mirrorless on a hot mess of a table mount looks like a hot mess on camera."
+  },
+  "tripod-pro": {
+    "name": "Benro pro video tripod",
+    "cat": "cables",
+    "price": 500,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Fluid head matters for pan/tilt during live work."
+  },
+  "parrot-prompt": {
+    "name": "Parrot Teleprompter 2",
+    "cat": "extras",
+    "price": 199,
+    "tiers": [
+      5000
+    ],
+    "why": "Tablet-based prompter. Fine for short scripts, not panel work."
+  },
+  "prompt-24": {
+    "name": "Prompter People 24\" teleprompter",
+    "cat": "extras",
+    "price": 1200,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Real broadcast prompter. Hosts can read without breaking eye contact."
+  },
+  "backdrop": {
+    "name": "Westcott X-Drop backdrop",
+    "cat": "extras",
+    "price": 180,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "Drop-down backdrop. Sets up in 60 seconds."
+  },
+  "acoustic-pan": {
+    "name": "Acoustic panels (8x 2ft)",
+    "cat": "extras",
+    "price": 250,
+    "tiers": [
+      5000,
+      10000,
+      20000
+    ],
+    "why": "Treat the room before chasing a better mic."
+  },
+  "confidence": {
+    "name": "Confidence monitor (24\" HDMI)",
+    "cat": "extras",
+    "price": 250,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Lets the host see the program feed. Required for paid live work."
+  }
+}

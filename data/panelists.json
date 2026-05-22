@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Alex",
+    "role": "Remote panelist · single-cam recording",
+    "initials": "A",
+    "buildKey": "5000-recording",
+    "bio": "Records weekly explainer videos from a converted home office. Cares about consistent skin tones across sessions more than absolute resolution.",
+    "using": [
+      "Sony ZV-E10 II",
+      "Shure MV7+",
+      "Amaran 200x"
+    ]
+  },
+  {
+    "name": "Florence",
+    "role": "Live host · multi-cam events",
+    "initials": "F",
+    "buildKey": "10000-live",
+    "bio": "Hosts live panel events on YouTube and LinkedIn Live. Switched to ATEM Extreme ISO G2 after one too many OBS crashes mid-stream.",
+    "using": [
+      "ATEM Mini Extreme ISO G2",
+      "Sony ZV-E10 II ×2",
+      "HyperDeck Studio"
+    ]
+  },
+  {
+    "name": "Sam",
+    "role": "Multi-host video podcast",
+    "initials": "S",
+    "buildKey": "10000-podcasting",
+    "bio": "Runs a 3-host video podcast with rotating guests. Spent 18 months over-investing in cameras before realizing the audio chain was the actual problem.",
+    "using": [
+      "Shure MV7+ ×3",
+      "RØDECaster Pro II",
+      "Acoustic treatment"
+    ]
+  },
+  {
+    "name": "Travel Kit",
+    "role": "Sub-$500 · fits in a backpack",
+    "initials": "T",
+    "buildKey": "500-hybrid",
+    "bio": "OHG's recommended kit for panelists on the road. Everything in this build packs into a single carry-on with room left for clothes.",
+    "using": [
+      "Logitech MX Brio",
+      "Samson Q2U",
+      "Halo 60x"
+    ]
+  },
+  {
+    "name": "Marcus",
+    "role": "Low-budget that actually works",
+    "initials": "M",
+    "buildKey": "500-live",
+    "bio": "Streams a weekly community show from his living room. Proves that $500 done right beats $3,000 done sloppy — audio first, lighting second, camera third.",
+    "using": [
+      "MX Brio",
+      "Samson Q2U",
+      "OBS Studio"
+    ]
+  },
+  {
+    "name": "OHG HQ",
+    "role": "$20k NDI broadcast room",
+    "initials": "O",
+    "buildKey": "20000-live",
+    "bio": "The reference studio at OHG HQ. NDI route with three BirdDog PTZ cameras, X32 audio, vMix Pro. Used for live conference programming and panelist drop-ins.",
+    "using": [
+      "BirdDog P200 ×2",
+      "X32 Rack",
+      "vMix Pro"
+    ]
+  }
+]
