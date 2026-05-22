@@ -2,9 +2,13 @@
 
 import { useState } from 'react'
 import { Tier, UseCase, Category } from '@/lib/types'
-import { formatCurrency, calculateTotal } from '@/lib/utils'
-import itemsData from '@/data/items.json'
-import buildsData from '@/data/builds.json'
+import { formatCurrency, calculateTotal, cn } from '@/lib/utils'
+import itemsDataRaw from '@/data/items.json'
+import buildsDataRaw from '@/data/builds.json'
+
+// Type assertions for JSON imports
+const itemsData = itemsDataRaw as Record<string, import('@/lib/types').Item>
+const buildsData = buildsDataRaw as Record<string, import('@/lib/types').Build>
 import { TierSelector } from '@/components/studio/TierSelector'
 import { UseCaseSelector } from '@/components/studio/UseCaseSelector'
 import { ItemCard } from '@/components/studio/ItemCard'
