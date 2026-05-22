@@ -9,12 +9,14 @@ import { TierSelector } from '@/components/studio/TierSelector'
 import { UseCaseSelector } from '@/components/studio/UseCaseSelector'
 import { ItemCard } from '@/components/studio/ItemCard'
 import { BudgetSummary } from '@/components/studio/BudgetSummary'
-import { Wrench, Sparkles } from 'lucide-react'
+import { VisualRack } from '@/components/studio/VisualRack'
+import { Wrench, Sparkles, Layout } from 'lucide-react'
 
 export default function Home() {
   const [selectedTier, setSelectedTier] = useState<Tier>('5000')
   const [selectedUseCase, setSelectedUseCase] = useState<UseCase>('hybrid')
   const [customItems, setCustomItems] = useState<string[]>([])
+  const [showRackView, setShowRackView] = useState(false)
 
   // Get baseline build
   const buildKey = `${selectedTier}-${selectedUseCase}`
@@ -93,20 +95,38 @@ export default function Home() {
         {/* Build Info */}
         {baselineBuild && (
           <div className="bg-gradient-to-r from-blue-900/30 to-purple-900/30 border border-blue-800/50 rounded-xl p-6 mb-8">
-            <div className="flex items-start gap-4">
-              <Sparkles className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
-              <div>
-                <h2 className="text-xl font-semibold text-white mb-2">{baselineBuild.title}</h2>
-                <p className="text-gray-300">{baselineBuild.blurb}</p>
+            <div className="flex items-start justify-between gap-4">
+              <div className="flex items-start gap-4">
+                <Sparkles className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <h2 className="text-xl font-semibold text-white mb-2">{baselineBuild.title}</h2>
+                  <p className="text-gray-300">{baselineBuild.blurb}</p>
+                </div>
               </div>
+              <button
+                onClick={() => setShowRackView(!showRackView)}
+                className={cn(
+                  "flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all",
+                  showRackView
+                    ? "bg-blue-600 text-white"
+                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                )}
+              >
+                <Layout className="w-4 h-4" />
+                {showRackView ? 'List View' : 'Rack View'}
+              </button>
             </div>
           </div>
         )}
 
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Items List */}
+          {/* Items List or Rack View */}
           <div className="lg:col-span-2 space-y-8">
+            {showRackView ? (
+              <VisualRack items={currentItems} itemsData={itemsData} />
+            ) : (
+              <div className="space-y-8">
             {(Object.keys(categorizedItems) as Category[]).map(category => {
               const items = categorizedItems[category]
               if (items.length === 0) return null
@@ -137,6 +157,8 @@ export default function Home() {
                 </div>
               )
             })}
+              </div>
+            )}
           </div>
 
           {/* Sidebar */}

@@ -1,8 +1,10 @@
 'use client'
 
+import { useState } from 'react'
 import { Item } from '@/lib/types'
 import { formatCurrency } from '@/lib/utils'
 import { X, ExternalLink } from 'lucide-react'
+import { GearMentionsModal } from './GearMentionsModal'
 
 interface ItemCardProps {
   itemId: string
@@ -11,8 +13,11 @@ interface ItemCardProps {
 }
 
 export function ItemCard({ itemId, item, onRemove }: ItemCardProps) {
+  const [showMentions, setShowMentions] = useState(false)
+
   return (
-    <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 hover:border-blue-600 transition-all">
+    <>
+      <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 hover:border-blue-600 transition-all">
       <div className="flex items-start justify-between gap-4">
         <div className="flex-1">
           <div className="flex items-start justify-between mb-2">
@@ -29,10 +34,13 @@ export function ItemCard({ itemId, item, onRemove }: ItemCardProps) {
               {item.cat}
             </span>
 
-            {/* YouTube mentions badge (placeholder for now) */}
-            <button className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-900/30 text-orange-400 hover:bg-orange-900/50 transition-colors">
+            {/* YouTube mentions badge */}
+            <button
+              onClick={() => setShowMentions(true)}
+              className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-900/30 text-orange-400 hover:bg-orange-900/50 transition-colors"
+            >
               <ExternalLink className="w-3 h-3 mr-1" />
-              Mentioned in episodes
+              Mentioned in 3 episodes
             </button>
           </div>
         </div>
@@ -46,6 +54,13 @@ export function ItemCard({ itemId, item, onRemove }: ItemCardProps) {
           </button>
         )}
       </div>
-    </div>
+
+      {/* Gear Mentions Modal */}
+      <GearMentionsModal
+        itemName={item.name}
+        isOpen={showMentions}
+        onClose={() => setShowMentions(false)}
+      />
+    </>
   )
 }
