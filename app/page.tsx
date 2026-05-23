@@ -72,7 +72,7 @@ export default function Home() {
               </div>
               <div>
                 <h1 className="text-4xl font-bold bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent tracking-tight">
-                  Studio Builder
+                  OHG Studio Builder
                 </h1>
                 <p className="text-slate-400 mt-1.5 text-sm font-medium tracking-wide">
                   By <span className="text-orange-500 font-bold">Office Hours Global</span> • Professional Studio Design Platform
