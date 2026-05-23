@@ -15,8 +15,15 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // Supabase config (ohg-platform database)
-const supabaseUrl = 'https://xsmbaldyidtmxslmuenm.supabase.co'
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhzbWJhbGR5aWR0bXhzbG11ZW5tIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTc3NzM3MSwiZXhwIjoyMDc3MzUzMzcxfQ.hG9pNg0iiNOmanBfEJravMhk3WLF3nsmqKabQeFua0k'
+const supabaseUrl = process.env.SUPABASE_URL || 'https://xsmbaldyidtmxslmuenm.supabase.co'
+const supabaseKey = process.env.SUPABASE_SERVICE_KEY
+
+if (!supabaseKey) {
+  console.error('❌ Error: SUPABASE_SERVICE_KEY environment variable not set')
+  console.error('Set it with: export SUPABASE_SERVICE_KEY=your-service-role-key')
+  console.error('Never commit service role keys to git!')
+  process.exit(1)
+}
 
 const supabase = createClient(supabaseUrl, supabaseKey)
 
