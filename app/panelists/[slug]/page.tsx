@@ -9,6 +9,7 @@ import itemsData from '@/data/items.json'
 interface Panelist {
   id: string
   email: string
+  display_name: string | null
   panelist_slug: string
   panelist_bio: string | null
   panelist_photo_url: string | null
@@ -92,7 +93,7 @@ export default function PanelistDetailPage() {
     )
   }
 
-  const displayName = panelist.email.split('@')[0].replace(/[.-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+  const displayName = panelist.display_name || panelist.email.split('@')[0].replace(/[.-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">

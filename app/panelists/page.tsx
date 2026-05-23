@@ -7,6 +7,7 @@ import Link from 'next/link'
 interface Panelist {
   id: string
   email: string
+  display_name: string | null
   panelist_slug: string
   panelist_bio: string | null
   panelist_photo_url: string | null
@@ -148,7 +149,7 @@ export default function PanelistsPage() {
                   )}
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-white group-hover:text-orange-400 transition-colors">
-                      {panelist.email.split('@')[0].replace(/[.-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                      {panelist.display_name || panelist.email.split('@')[0].replace(/[.-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
                     </h3>
                     {panelist.specialty && (
                       <p className="text-sm text-orange-400 font-medium mt-1">
