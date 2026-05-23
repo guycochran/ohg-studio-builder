@@ -784,5 +784,83 @@
       20000
     ],
     "why": "Lets the host see the program feed. Required for paid live work."
+  },
+  "ptz12x": {
+    "name": "PTZOptics 12X-NDI",
+    "cat": "camera",
+    "price": 1895,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "12x optical zoom, full NDI|3, PoE+. The workhorse PTZ for hybrid rooms."
+  },
+  "ptz20x": {
+    "name": "PTZOptics 20X-NDI",
+    "cat": "camera",
+    "price": 2395,
+    "tiers": [
+      20000
+    ],
+    "why": "20x zoom reaches the back row. IP control + NDI. The teleconference standard."
+  },
+  "ptz30x": {
+    "name": "PTZOptics 30X-NDI",
+    "cat": "camera",
+    "price": 3495,
+    "tiers": [
+      20000
+    ],
+    "why": "30x zoom, 4K60. For auditoriums and large spaces."
+  },
+  "stream-deck-mini": {
+    "name": "Elgato Stream Deck Mini",
+    "cat": "control",
+    "price": 80,
+    "tiers": [
+      500,
+      5000
+    ],
+    "why": "6 keys. Enough for scene switching without the full Stream Deck commitment."
+  },
+  "stream-deck-xl": {
+    "name": "Elgato Stream Deck XL",
+    "cat": "control",
+    "price": 250,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "32 keys. For complex multi-camera shows with macros."
+  },
+  "stream-deck-plus": {
+    "name": "Elgato Stream Deck Plus",
+    "cat": "control",
+    "price": 200,
+    "tiers": [
+      5000,
+      10000
+    ],
+    "why": "8 keys + 4 knobs. Audio mixing meets scene control."
+  },
+  "ndi-decode": {
+    "name": "BirdDog Flex 4K NDI Decoder",
+    "cat": "recording",
+    "price": 495,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Converts NDI back to HDMI/SDI. Required for confidence monitors in NDI workflows."
+  },
+  "ndi-encode": {
+    "name": "Magewell Ultra Encode HDMI",
+    "cat": "recording",
+    "price": 545,
+    "tiers": [
+      10000,
+      20000
+    ],
+    "why": "Turns any HDMI source into NDI. The Swiss Army knife of NDI routing."
   }
 }
