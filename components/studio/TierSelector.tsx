@@ -17,21 +17,31 @@ const tiers: { value: Tier; label: string; description: string }[] = [
 
 export function TierSelector({ selected, onSelect }: TierSelectorProps) {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
       {tiers.map(tier => (
         <button
           key={tier.value}
           onClick={() => onSelect(tier.value)}
           className={cn(
-            'p-4 rounded-lg border-2 transition-all duration-200',
-            'hover:scale-105 hover:shadow-lg',
+            'group relative p-6 rounded-2xl border-2 transition-all duration-300 overflow-hidden',
+            'hover:scale-105 hover:shadow-2xl',
             selected === tier.value
-              ? 'bg-blue-600 border-blue-500 text-white shadow-blue-500/50'
-              : 'bg-gray-800 border-gray-700 text-gray-300 hover:border-blue-600'
+              ? 'bg-gradient-to-br from-orange-600 to-orange-700 border-orange-500 text-white shadow-2xl shadow-orange-500/50 scale-105'
+              : 'bg-slate-800/60 border-slate-700/60 text-slate-300 hover:border-orange-500/60 hover:bg-slate-800/80 backdrop-blur-sm'
           )}
         >
-          <div className="text-xl font-bold">{tier.label}</div>
-          <div className="text-sm opacity-80">{tier.description}</div>
+          {selected === tier.value && (
+            <div className="absolute inset-0 bg-gradient-to-r from-orange-400/20 via-transparent to-orange-600/20 animate-pulse"></div>
+          )}
+          <div className="relative">
+            <div className="text-2xl font-bold mb-1 tracking-tight">{tier.label}</div>
+            <div className={cn(
+              "text-sm font-medium tracking-wide uppercase",
+              selected === tier.value ? "text-orange-100" : "text-slate-400 group-hover:text-slate-300"
+            )}>
+              {tier.description}
+            </div>
+          </div>
         </button>
       ))}
     </div>
