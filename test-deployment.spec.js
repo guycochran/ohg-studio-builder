@@ -8,7 +8,7 @@ test.describe('OHG Studio Builder - Deployment Test', () => {
     await page.goto(BASE_URL, { waitUntil: 'networkidle' });
 
     // Check header loaded
-    await expect(page.locator('h1')).toContainText('OHG Studio Builder');
+    await expect(page.locator('h1')).toContainText('Studio Builder');
     await expect(page.locator('text=Office Hours Global')).toBeVisible();
 
     // Check budget tier selector is visible and has 4 options

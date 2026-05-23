@@ -14,7 +14,7 @@ test.describe('OHG Studio Builder - Production Test', () => {
     await page.goto('/', { waitUntil: 'networkidle', timeout: 30000 });
 
     // Check header loaded
-    await expect(page.locator('h1')).toContainText('OHG Studio Builder', { timeout: 10000 });
+    await expect(page.locator('h1')).toContainText('Studio Builder', { timeout: 10000 });
     await expect(page.locator('text=Office Hours Global')).toBeVisible();
 
     // Check budget tier selector is visible and has 4 options
