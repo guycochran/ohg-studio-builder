@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import { Wrench, ExternalLink, ArrowLeft, Globe, Twitter, Linkedin, Package } from 'lucide-react'
+import { Wrench, ExternalLink, ArrowLeft, Globe, Package } from 'lucide-react'
 import Link from 'next/link'
 import itemsData from '@/data/items.json'
 
@@ -177,7 +177,7 @@ export default function PanelistDetailPage() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
                   >
-                    <Twitter className="w-4 h-4" />
+                    <ExternalLink className="w-4 h-4" />
                     Twitter
                   </a>
                 )}
@@ -188,7 +188,7 @@ export default function PanelistDetailPage() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
                   >
-                    <Linkedin className="w-4 h-4" />
+                    <ExternalLink className="w-4 h-4" />
                     LinkedIn
                   </a>
                 )}
