@@ -29,9 +29,6 @@ test.describe('OHG Studio Builder - Production Test', () => {
     await expect(page.getByRole('button', { name: 'Live Live streaming' })).toBeVisible();
     await expect(page.getByRole('button', { name: 'Hybrid Does everything' })).toBeVisible();
 
-    // Check rack view toggle button exists
-    await expect(page.locator('button:has-text("Rack View")')).toBeVisible();
-
     // Check equipment items are displayed
     await expect(page.locator('text=Sony ZV-E10 II')).toBeVisible();
     await expect(page.locator('text=Shure MV7+')).toBeVisible();
@@ -72,20 +69,5 @@ test.describe('OHG Studio Builder - Production Test', () => {
     await expect(page.locator('h2')).toContainText('Podcast');
 
     console.log('✅ Use case switching works on production');
-  });
-
-  test('should toggle rack view on production', async ({ page }) => {
-    await page.goto('/', { waitUntil: 'networkidle', timeout: 30000 });
-
-    // Click Rack View button
-    const rackButton = page.getByRole('button', { name: 'Rack View' });
-    await expect(rackButton).toBeVisible();
-    await rackButton.click();
-    await page.waitForTimeout(1000);
-
-    // Verify button text changed to List View
-    await expect(page.getByRole('button', { name: 'List View' })).toBeVisible();
-
-    console.log('✅ Rack view toggle works on production');
   });
 });

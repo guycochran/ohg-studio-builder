@@ -13,14 +13,12 @@ import { TierSelector } from '@/components/studio/TierSelector'
 import { UseCaseSelector } from '@/components/studio/UseCaseSelector'
 import { ItemCard } from '@/components/studio/ItemCard'
 import { BudgetSummary } from '@/components/studio/BudgetSummary'
-import { VisualRack } from '@/components/studio/VisualRack'
-import { Wrench, Sparkles, Layout } from 'lucide-react'
+import { Wrench, Sparkles } from 'lucide-react'
 
 export default function Home() {
   const [selectedTier, setSelectedTier] = useState<Tier>('5000')
   const [selectedUseCase, setSelectedUseCase] = useState<UseCase>('hybrid')
   const [customItems, setCustomItems] = useState<string[]>([])
-  const [showRackView, setShowRackView] = useState(false)
 
   // Get baseline build
   const buildKey = `${selectedTier}-${selectedUseCase}`
@@ -117,40 +115,22 @@ export default function Home() {
         {baselineBuild && (
           <div className="relative bg-gradient-to-br from-slate-800/40 via-slate-800/30 to-slate-900/40 border border-slate-700/50 rounded-2xl p-8 mb-12 shadow-2xl overflow-hidden backdrop-blur-sm">
             <div className="absolute inset-0 bg-gradient-to-r from-orange-600/5 via-transparent to-blue-600/5"></div>
-            <div className="relative flex items-start justify-between gap-6">
-              <div className="flex items-start gap-5 flex-1">
-                <div className="bg-gradient-to-br from-orange-500/20 to-blue-500/20 p-3 rounded-xl border border-orange-500/30">
-                  <Sparkles className="w-7 h-7 text-orange-400" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold text-white mb-3 tracking-tight">{baselineBuild.title}</h2>
-                  <p className="text-slate-300 text-lg leading-relaxed">{baselineBuild.blurb}</p>
-                </div>
+            <div className="relative flex items-start gap-5">
+              <div className="bg-gradient-to-br from-orange-500/20 to-blue-500/20 p-3 rounded-xl border border-orange-500/30">
+                <Sparkles className="w-7 h-7 text-orange-400" />
               </div>
-              <button
-                onClick={() => setShowRackView(!showRackView)}
-                className={cn(
-                  "flex items-center gap-3 px-6 py-3.5 rounded-xl font-semibold transition-all duration-300 shadow-lg border whitespace-nowrap",
-                  showRackView
-                    ? "bg-gradient-to-r from-blue-600 to-cyan-600 text-white border-blue-500/50 shadow-blue-500/50 hover:shadow-blue-500/70 hover:scale-105"
-                    : "bg-slate-800/80 text-slate-200 border-slate-700/50 hover:bg-slate-700/80 hover:border-slate-600/50 hover:scale-105"
-                )}
-              >
-                <Layout className="w-5 h-5" />
-                {showRackView ? 'List View' : 'Rack View'}
-              </button>
+              <div>
+                <h2 className="text-2xl font-bold text-white mb-3 tracking-tight">{baselineBuild.title}</h2>
+                <p className="text-slate-300 text-lg leading-relaxed">{baselineBuild.blurb}</p>
+              </div>
             </div>
           </div>
         )}
 
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Items List or Rack View */}
-          <div className="lg:col-span-2 space-y-8">
-            {showRackView ? (
-              <VisualRack items={currentItems} itemsData={itemsData} />
-            ) : (
-              <div className="space-y-10">
+          {/* Items List */}
+          <div className="lg:col-span-2 space-y-10">
             {(Object.keys(categorizedItems) as Category[]).map(category => {
               const items = categorizedItems[category]
               if (items.length === 0) return null
@@ -181,8 +161,6 @@ export default function Home() {
                 </div>
               )
             })}
-              </div>
-            )}
           </div>
 
           {/* Sidebar */}

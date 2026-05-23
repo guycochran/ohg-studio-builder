@@ -1,0 +1,329 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Studio Builder" [level=1] [ref=e13]
+            - paragraph [ref=e14]: By Office Hours Global • Professional Studio Design Platform
+        - generic [ref=e16]:
+          - generic [ref=e17]: Total Budget
+          - generic [ref=e18]: $5,000
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: Budget Tier
+          - generic [ref=e24]:
+            - button "$500 Starter" [ref=e25]:
+              - generic [ref=e26]:
+                - generic [ref=e27]: $500
+                - generic [ref=e28]: Starter
+            - button "$5,000 Pro" [ref=e29]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: $5,000
+                - generic [ref=e33]: Pro
+            - button "$10,000 Advanced" [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: $10,000
+                - generic [ref=e37]: Advanced
+            - button "$20,000 Broadcast" [ref=e38]:
+              - generic [ref=e39]:
+                - generic [ref=e40]: $20,000
+                - generic [ref=e41]: Broadcast
+        - generic [ref=e42]:
+          - generic [ref=e43]: Primary Use Case
+          - generic [ref=e45]:
+            - button "Podcasting Audio-first recording" [ref=e46]:
+              - generic [ref=e47]:
+                - img [ref=e49]
+                - generic [ref=e52]: Podcasting
+                - generic [ref=e53]: Audio-first recording
+            - button "Recording Video content creation" [ref=e54]:
+              - generic [ref=e55]:
+                - img [ref=e57]
+                - generic [ref=e60]: Recording
+                - generic [ref=e61]: Video content creation
+            - button "Live Live streaming production" [ref=e62]:
+              - generic [ref=e63]:
+                - img [ref=e65]
+                - generic [ref=e71]: Live
+                - generic [ref=e72]: Live streaming production
+            - button "Hybrid Does everything" [ref=e73]:
+              - generic [ref=e75]:
+                - img [ref=e77]
+                - generic [ref=e80]: Hybrid
+                - generic [ref=e81]: Does everything
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - img [ref=e87]
+          - generic [ref=e90]:
+            - heading "$5,000 Hybrid Studio" [level=2] [ref=e91]
+            - paragraph [ref=e92]: Equally good at recording, podcasting, and going live. No specialization.
+        - button "Rack View" [ref=e93]:
+          - img [ref=e94]
+          - text: Rack View
+      - generic [ref=e96]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - heading "camera" [level=3] [ref=e100]: camera
+            - generic [ref=e102]:
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]:
+                    - heading "Sony ZV-E10 II (kit 16-50 II)" [level=4] [ref=e107]
+                    - generic [ref=e109]: $1,099
+                  - paragraph [ref=e110]: Same body, includes the new power-zoom kit lens. Good starting point.
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: camera
+                    - button "Mentioned in 3 episodes" [ref=e113]:
+                      - img [ref=e114]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e118]:
+                  - img [ref=e119]
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - heading "Sigma 16mm f/1.4 (E-mount)" [level=4] [ref=e126]
+                    - generic [ref=e128]: $379
+                  - paragraph [ref=e129]: Fast wide prime — flattering for talking head, great in low light.
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: camera
+                    - button "Mentioned in 3 episodes" [ref=e132]:
+                      - img [ref=e133]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e137]:
+                  - img [ref=e138]
+          - generic [ref=e141]:
+            - heading "audio" [level=3] [ref=e142]: audio
+            - generic [ref=e144]:
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - generic [ref=e148]:
+                    - heading "Shure MV7+" [level=4] [ref=e149]
+                    - generic [ref=e151]: $249
+                  - paragraph [ref=e152]: Hybrid USB/XLR. Auto-level mode, app DSP, dynamic capsule rejects room noise. Upgrade path without replacing the mic.
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: audio
+                    - button "Mentioned in 3 episodes" [ref=e155]:
+                      - img [ref=e156]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e160]:
+                  - img [ref=e161]
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - heading "DJI Mic 2 (kit)" [level=4] [ref=e168]
+                    - generic [ref=e170]: $349
+                  - paragraph [ref=e171]: Wireless lav. 32-bit float internal recording = backup audio insurance.
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: audio
+                    - button "Mentioned in 3 episodes" [ref=e174]:
+                      - img [ref=e175]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e179]:
+                  - img [ref=e180]
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - heading "Sony MDR-7506 headphones" [level=4] [ref=e187]
+                    - generic [ref=e189]: $100
+                  - paragraph [ref=e190]: Industry default closed-back. Boring, accurate, indestructible.
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: audio
+                    - button "Mentioned in 3 episodes" [ref=e193]:
+                      - img [ref=e194]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e198]:
+                  - img [ref=e199]
+          - generic [ref=e202]:
+            - heading "lighting" [level=3] [ref=e203]: lighting
+            - generic [ref=e205]:
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]:
+                    - heading "Aputure Amaran Halo 100x" [level=4] [ref=e210]
+                    - generic [ref=e212]: $219
+                  - paragraph [ref=e213]: Bigger Halo COB. Add a softbox and you have a real key light.
+                  - generic [ref=e214]:
+                    - generic [ref=e215]: lighting
+                    - button "Mentioned in 3 episodes" [ref=e216]:
+                      - img [ref=e217]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e221]:
+                  - img [ref=e222]
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - generic [ref=e228]:
+                    - heading "Aputure Amaran Halo 100x" [level=4] [ref=e229]
+                    - generic [ref=e231]: $219
+                  - paragraph [ref=e232]: Bigger Halo COB. Add a softbox and you have a real key light.
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: lighting
+                    - button "Mentioned in 3 episodes" [ref=e235]:
+                      - img [ref=e236]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e240]:
+                  - img [ref=e241]
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - heading "Bowens softbox (octa, 36in)" [level=4] [ref=e248]
+                    - generic [ref=e250]: $90
+                  - paragraph [ref=e251]: Soft, controlled key. Cheap upgrade with disproportionate visual payoff.
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: lighting
+                    - button "Mentioned in 3 episodes" [ref=e254]:
+                      - img [ref=e255]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e259]:
+                  - img [ref=e260]
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - heading "Light stands (pair, 7ft)" [level=4] [ref=e267]
+                    - generic [ref=e269]: $80
+                  - paragraph [ref=e270]: You will buy these. Might as well budget for them.
+                  - generic [ref=e271]:
+                    - generic [ref=e272]: lighting
+                    - button "Mentioned in 3 episodes" [ref=e273]:
+                      - img [ref=e274]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e278]:
+                  - img [ref=e279]
+          - generic [ref=e282]:
+            - heading "control" [level=3] [ref=e283]: control
+            - generic [ref=e285]:
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - heading "ATEM Mini Pro" [level=4] [ref=e290]
+                    - generic [ref=e292]: $495
+                  - paragraph [ref=e293]: Hardware switcher with streaming engine. No PC required for basic streams.
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: control
+                    - button "Mentioned in 3 episodes" [ref=e296]:
+                      - img [ref=e297]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e301]:
+                  - img [ref=e302]
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - heading "vMix HD (perpetual)" [level=4] [ref=e309]
+                    - generic [ref=e311]: $350
+                  - paragraph [ref=e312]: Owns it forever. Right call if you stream weekly.
+                  - generic [ref=e313]:
+                    - generic [ref=e314]: control
+                    - button "Mentioned in 3 episodes" [ref=e315]:
+                      - img [ref=e316]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e320]:
+                  - img [ref=e321]
+          - generic [ref=e324]:
+            - heading "computer" [level=3] [ref=e325]: computer
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - heading "Mac mini M4 (16GB)" [level=4] [ref=e332]
+                  - generic [ref=e334]: $599
+                - paragraph [ref=e335]: M4 is overkill for most encoding. 16GB base is fine for OBS/Ecamm.
+                - generic [ref=e336]:
+                  - generic [ref=e337]: computer
+                  - button "Mentioned in 3 episodes" [ref=e338]:
+                    - img [ref=e339]
+                    - text: Mentioned in 3 episodes
+              - button [ref=e343]:
+                - img [ref=e344]
+          - generic [ref=e347]:
+            - heading "recording" [level=3] [ref=e348]: recording
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - heading "Samsung T7 1TB SSD" [level=4] [ref=e355]
+                  - generic [ref=e357]: $100
+                - paragraph [ref=e358]: External SSD for project files. T7 is the boring-reliable choice.
+                - generic [ref=e359]:
+                  - generic [ref=e360]: recording
+                  - button "Mentioned in 3 episodes" [ref=e361]:
+                    - img [ref=e362]
+                    - text: Mentioned in 3 episodes
+              - button [ref=e366]:
+                - img [ref=e367]
+          - generic [ref=e370]:
+            - heading "cables" [level=3] [ref=e371]: cables
+            - generic [ref=e373]:
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - heading "Manfrotto compact tripod" [level=4] [ref=e378]
+                    - generic [ref=e380]: $200
+                  - paragraph [ref=e381]: Mirrorless on a hot mess of a table mount looks like a hot mess on camera.
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: cables
+                    - button "Mentioned in 3 episodes" [ref=e384]:
+                      - img [ref=e385]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e389]:
+                  - img [ref=e390]
+              - generic [ref=e394]:
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - heading "Cables kit (XLR x4, HDMI x4, USB-C x2)" [level=4] [ref=e397]
+                    - generic [ref=e399]: $200
+                  - paragraph [ref=e400]: Multi-cam means multi-cables. Budget for it up front.
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: cables
+                    - button "Mentioned in 3 episodes" [ref=e403]:
+                      - img [ref=e404]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e408]:
+                  - img [ref=e409]
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - generic [ref=e415]:
+                    - heading "RODE PSA1+ boom arm" [level=4] [ref=e416]
+                    - generic [ref=e418]: $140
+                  - paragraph [ref=e419]: No clunk, broad reach, no creep. The boom arm everyone ends up buying.
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: cables
+                    - button "Mentioned in 3 episodes" [ref=e422]:
+                      - img [ref=e423]
+                      - text: Mentioned in 3 episodes
+                - button [ref=e427]:
+                  - img [ref=e428]
+        - generic [ref=e433]:
+          - generic [ref=e434]:
+            - heading "Build Summary" [level=3] [ref=e435]: Build Summary
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - generic [ref=e439]: Total Spend
+                - img [ref=e440]
+              - generic [ref=e442]: $4,868
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - generic [ref=e445]: Budget
+                - img [ref=e446]
+              - generic [ref=e449]: $5,000
+            - generic [ref=e450]:
+              - generic [ref=e451]:
+                - generic [ref=e452]: Remaining
+                - img [ref=e453]
+              - generic [ref=e456]: $132
+            - generic [ref=e458]:
+              - generic [ref=e459]: Budget Used
+              - generic [ref=e460]: 97.4%
+            - generic [ref=e464]:
+              - generic [ref=e465]:
+                - generic [ref=e466]: Total Items
+                - img [ref=e467]
+              - generic [ref=e471]: "16"
+          - generic [ref=e472]:
+            - button "Save Build" [ref=e473]
+            - button "Share Build" [ref=e474]
+            - button "Export PDF" [ref=e475]
+  - alert [ref=e476]
+```
