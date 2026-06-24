@@ -6,7 +6,10 @@
     "tiers": [
       500
     ],
-    "why": "4K webcam with a real sensor upgrade over the old Brio. Sharp, well-priced, plug and play."
+    "why": "4K webcam with a real sensor upgrade over the old Brio. Sharp, well-priced, plug and play.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0CX4D3RTY?tag=officehours0c-20"
+    }
   },
   "facecam-4k": {
     "name": "Elgato Facecam 4K",
@@ -35,7 +38,10 @@
       500,
       5000
     ],
-    "why": "AI auto-track keeps you centered when you move. Great for solo shooters."
+    "why": "AI auto-track keeps you centered when you move. Great for solo shooters.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0CPY8QDLW?tag=officehours0c-20"
+    }
   },
   "zve10-ii": {
     "name": "Sony ZV-E10 II (body)",
@@ -160,7 +166,10 @@
       500,
       5000
     ],
-    "why": "Tuned for spoken word, internal shock mount, USB/XLR hybrid. The 2026 default starter mic."
+    "why": "Tuned for spoken word, internal shock mount, USB/XLR hybrid. The 2026 default starter mic.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0CQYW8L9V?tag=officehours0c-20"
+    }
   },
   "mv7-plus": {
     "name": "Shure MV7+",
@@ -171,7 +180,10 @@
       5000,
       10000
     ],
-    "why": "Hybrid USB/XLR. Auto-level mode, app DSP, dynamic capsule rejects room noise. Upgrade path without replacing the mic."
+    "why": "Hybrid USB/XLR. Auto-level mode, app DSP, dynamic capsule rejects room noise. Upgrade path without replacing the mic.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0D6QD5MY1?tag=officehours0c-20"
+    }
   },
   "sm7b": {
     "name": "Shure SM7B",
@@ -182,7 +194,10 @@
       10000,
       20000
     ],
-    "why": "Broadcast standard XLR. Requires interface + clean preamp. A forever mic."
+    "why": "Broadcast standard XLR. Requires interface + clean preamp. A forever mic.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0002E4Z8M?tag=officehours0c-20"
+    }
   },
   "sm7db": {
     "name": "Shure SM7dB",
@@ -212,7 +227,10 @@
       5000,
       10000
     ],
-    "why": "Wireless lav. 32-bit float internal recording = backup audio insurance."
+    "why": "Wireless lav. 32-bit float internal recording = backup audio insurance.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0CTY9ZMWB?tag=officehours0c-20"
+    }
   },
   "sennheiser-ewd": {
     "name": "Sennheiser EW-D wireless",
@@ -242,7 +260,10 @@
       500,
       5000
     ],
-    "why": "The reference cheap interface. Two XLR inputs, AIR mode, USB-C."
+    "why": "The reference cheap interface. Two XLR inputs, AIR mode, USB-C.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0CTVDSM8B?tag=officehours0c-20"
+    }
   },
   "flow8": {
     "name": "Behringer Flow 8",
@@ -291,7 +312,10 @@
       10000,
       20000
     ],
-    "why": "Industry default closed-back. Boring, accurate, indestructible."
+    "why": "Industry default closed-back. Boring, accurate, indestructible.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B000AJIF4E?tag=officehours0c-20"
+    }
   },
   "iem-sidekick": {
     "name": "Behringer P1 IEM (\"Sidekick\")",
@@ -310,7 +334,10 @@
     "tiers": [
       500
     ],
-    "why": "New 2026 Halo series — bicolor COB, Bowens mount, app control. Best $/W in the line."
+    "why": "New 2026 Halo series — bicolor COB, Bowens mount, app control. Best $/W in the line.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0DNW3KQWP?tag=officehours0c-20"
+    }
   },
   "halo-100x": {
     "name": "Aputure Amaran Halo 100x",
@@ -320,7 +347,10 @@
       500,
       5000
     ],
-    "why": "Bigger Halo COB. Add a softbox and you have a real key light."
+    "why": "Bigger Halo COB. Add a softbox and you have a real key light.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0DNW36BHP?tag=officehours0c-20"
+    }
   },
   "amaran-200x": {
     "name": "Aputure Amaran 200x S",
@@ -359,7 +389,10 @@
     "tiers": [
       500
     ],
-    "why": "App-controlled flat panel. Lower output than COB but simpler form factor."
+    "why": "App-controlled flat panel. Lower output than COB but simpler form factor.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B082QHRZFW?tag=officehours0c-20"
+    }
   },
   "light-stands": {
     "name": "Light stands (pair, 7ft)",
@@ -475,7 +508,10 @@
     "tiers": [
       5000
     ],
-    "why": "Hardware switcher with streaming engine. No PC required for basic streams."
+    "why": "Hardware switcher with streaming engine. No PC required for basic streams.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B086R79C5J?tag=officehours0c-20"
+    }
   },
   "rcv-core": {
     "name": "RØDECaster Video Core",
@@ -531,7 +567,10 @@
       500,
       5000
     ],
-    "why": "M4 is overkill for most encoding. 16GB base is fine for OBS/Ecamm."
+    "why": "M4 is overkill for most encoding. 16GB base is fine for OBS/Ecamm.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0DPCGBRG6?tag=officehours0c-20"
+    }
   },
   "mac-mini-pro": {
     "name": "Mac mini M4 Pro (24GB)",
@@ -589,7 +628,10 @@
       5000,
       10000
     ],
-    "why": "Gets mirrorless HDMI clean into OBS as a webcam."
+    "why": "Gets mirrorless HDMI clean into OBS as a webcam.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0BZ9ZZVDY?tag=officehours0c-20"
+    }
   },
   "cam-link-4k": {
     "name": "Elgato Cam Link 4K",
@@ -598,7 +640,10 @@
     "tiers": [
       5000
     ],
-    "why": "Cheaper than HD60 X if you don't need passthrough."
+    "why": "Cheaper than HD60 X if you don't need passthrough.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B07K3FN5MR?tag=officehours0c-20"
+    }
   },
   "hyperdeck-shut": {
     "name": "Blackmagic HyperDeck Shuttle 4K Pro",
@@ -628,7 +673,10 @@
       5000,
       10000
     ],
-    "why": "External SSD for project files. T7 is the boring-reliable choice."
+    "why": "External SSD for project files. T7 is the boring-reliable choice.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0BLQKDLZ9?tag=officehours0c-20"
+    }
   },
   "ssd-2tb": {
     "name": "Samsung T9 2TB SSD",
@@ -658,7 +706,10 @@
       5000,
       10000
     ],
-    "why": "No clunk, broad reach, no creep. The boom arm everyone ends up buying."
+    "why": "No clunk, broad reach, no creep. The boom arm everyone ends up buying.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B0B4LN95W9?tag=officehours0c-20"
+    }
   },
   "boom-arm-bud": {
     "name": "InnoGear boom arm",
@@ -821,7 +872,10 @@
       500,
       5000
     ],
-    "why": "6 keys. Enough for scene switching without the full Stream Deck commitment."
+    "why": "6 keys. Enough for scene switching without the full Stream Deck commitment.",
+    "affiliateUrls": {
+      "amazon": "https://www.amazon.com/dp/B07DYRS1WH?tag=officehours0c-20"
+    }
   },
   "stream-deck-xl": {
     "name": "Elgato Stream Deck XL",

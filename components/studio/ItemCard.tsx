@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Item } from '@/lib/types'
 import { formatCurrency } from '@/lib/utils'
-import { X, ExternalLink } from 'lucide-react'
+import { X, ExternalLink, ShoppingCart } from 'lucide-react'
 import { GearMentionsModal } from './GearMentionsModal'
 
 interface ItemCardProps {
@@ -36,9 +36,26 @@ export function ItemCard({ itemId, item, onRemove }: ItemCardProps) {
                 {item.cat}
               </span>
 
+              {/* Amazon Affiliate Link */}
+              {item.affiliateUrls?.amazon && (
+                <a
+                  href={item.affiliateUrls.amazon}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all border border-orange-400/30 hover:border-orange-300/50 shadow-lg hover:shadow-orange-500/20"
+                  onClick={(e) => {
+                    // Track affiliate click (optional analytics)
+                    console.log(`Affiliate click: ${itemId} - ${item.name}`);
+                  }}
+                >
+                  <ShoppingCart className="w-3.5 h-3.5 mr-1.5" />
+                  Buy on Amazon
+                </a>
+              )}
+
               <button
                 onClick={() => setShowMentions(true)}
-                className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-orange-600/20 to-orange-700/20 text-orange-400 hover:from-orange-600/30 hover:to-orange-700/30 transition-all border border-orange-600/40 hover:border-orange-500/60 shadow-sm"
+                className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-blue-600/20 to-blue-700/20 text-blue-400 hover:from-blue-600/30 hover:to-blue-700/30 transition-all border border-blue-600/40 hover:border-blue-500/60 shadow-sm"
               >
                 <ExternalLink className="w-3.5 h-3.5 mr-1.5" />
                 Mentioned in 3 episodes

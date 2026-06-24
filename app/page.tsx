@@ -175,6 +175,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Affiliate Disclosure */}
+        <div className="mt-16 mb-8">
+          <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 border border-slate-700/50 rounded-xl p-6 backdrop-blur-sm">
+            <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-3 flex items-center gap-2">
+              <div className="w-1 h-4 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full"></div>
+              Affiliate Disclosure
+            </h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Office Hours Global is a participant in the Amazon Services LLC Associates Program,
+              an affiliate advertising program designed to provide a means for sites to earn
+              advertising fees by advertising and linking to Amazon.com. As an Amazon Associate,
+              we earn from qualifying purchases. Your price remains the same, and you help support
+              our nonprofit mission to provide free production education.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )
